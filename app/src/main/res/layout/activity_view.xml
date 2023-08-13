@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    tools:context=".view"
+    tools:ignore="NamespaceTypo">
+
+
+    <ListView
+        android:id="@+id/lst1"
+        android:layout_width="match_parent"
+        android:layout_height="613dp"
+        android:layout_gravity="bottom"
+
+        />
+
+    <ImageButton
+        android:id="@+id/bt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        app:srcCompat="?attr/homeAsUpIndicator" />
+
+</LinearLayout>
